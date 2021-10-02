@@ -1,0 +1,19 @@
+.home {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.greenBar {
+  flex: 2;
+  background-color: green;
+  margin: 16px;
+  border: 6px double greenyellow;
+}
+
+.homeWrapper {
+  display: flex;
+}
