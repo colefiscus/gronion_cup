@@ -7,4 +7,6 @@
   color: greenyellow;
   height: 12%;
   font-family: 'Pacifico', sans-serif;
+  border: 3px solid greenyellow;
+  border-bottom: none;
 }

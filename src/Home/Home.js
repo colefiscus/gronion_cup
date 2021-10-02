@@ -1,14 +1,15 @@
 import React from 'react';
 import './Home.css';
-// import GameList from 
+import GameList from '../GameList/GameList';
 
 const Home = () => {
 
-
   return (
-    <section>
-
-    </section>
+    <main>
+      <GameList gameType="barGames" />
+      <GameList gameType="boardGames" />
+      <GameList gameType="cardGames" />
+    </main>
   )
 }
 
