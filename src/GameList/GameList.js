@@ -30,6 +30,7 @@ const GameList = ({ gameType }) => {
 
   return (
     <section className="gameList">
+      <h2 className="gameTypeTitle">{gameType}</h2>
       <div className="games">
         {allGames}
       </div>

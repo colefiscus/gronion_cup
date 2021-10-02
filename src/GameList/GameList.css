@@ -7,6 +7,11 @@
   justify-content: space-around;
   align-items: center;
   background-color: rgba(34, 255, 0, 0.3);
+  font-family: 'Lora', sans-serif;
+}
+
+.gameTypeTitle {
+  margin-bottom: 8px;
 }
 
 .games {
