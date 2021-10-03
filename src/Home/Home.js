@@ -11,6 +11,8 @@ const Home = () => {
         <GameList gameType="barGames" />
         <GameList gameType="boardGames" />
         <GameList gameType="cardGames" />
+        <GameList gameType="minuteGames" />
+        <GameList gameType="wildCard" />
       </main>
       <div className="greenBar"></div>
     </div>
